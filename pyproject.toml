@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arithmetic-without-addition-lab"
+version = "0.1.0"
+description = "Computational experiments for Arithmetic Without Addition, Higher Math for the Impatient"
+requires-python = ">=3.10"
+authors = [{name = "Mirco A. Mannucci", email = "mirco@holomathics.com"}]
+dependencies = ["numpy>=1.24", "sympy>=1.12", "matplotlib>=3.6", "networkx>=3.0", "ipython>=8.0", "jupyterlab>=4.0", "nbformat>=5.9", "nbclient>=0.9"]
+
+[project.optional-dependencies]
+test = ["pytest>=7.4"]
+
+[tool.setuptools.packages.find]
+include = ["awa_lab*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

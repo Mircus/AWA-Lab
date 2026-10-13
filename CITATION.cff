@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this computational companion, please cite this repository."
+title: "Arithmetic Without Addition Lab"
+authors:
+  - family-names: Mannucci
+    given-names: Mirco A.
+    affiliation: HoloMathics, LLC
+    email: mirco@holomathics.com
+version: 0.1.0
+date-released: 2026-10-12
+type: software
+abstract: "Executable mathematical experiments on geometry at q=1, toric geometry, tropicalization, Groebner degeneration, dual graphs of nodal curves, and finite-field zeta functions."

@@ -1,5 +1,10 @@
 # Arithmetic Without Addition · Lab
 
+
+<p align="center">
+  <img src="assets/logo.png" width="650" alt="AWA Lab Logo">
+</p>
+
 **Higher Math for the Impatient**  
 *A computational companion to* **Arithmetic Without Addition: From the Field with One Element to Tropical Geometry**
 
